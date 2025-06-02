@@ -20,8 +20,8 @@
     max-width: 1104px;
   }
 }
-main .catalog {
-  background-color: #fff;
+.catalog {
+  background-color: #fff !important;
   color: black;
 }
 .products__filter-wrapper {
@@ -56,7 +56,7 @@ main .catalog {
   }
 }
 .catalog {
-  margin-bottom: 104px;
+  padding-bottom: 104px;
 }
 .products__filter {
   width: 215px;

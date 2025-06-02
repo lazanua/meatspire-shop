@@ -26,3 +26,6 @@ input[type="checkbox"] {
   accent-color: var(--yellow);
   background-color: white;
 }
+.catalog {
+  background-color: #fff;
+}
