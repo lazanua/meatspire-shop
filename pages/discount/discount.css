@@ -1,0 +1,28 @@
+.products__filter-item {
+  display: flex;
+  align-items: center;
+  width: 296px;
+  justify-content: space-between;
+  img.rotate {
+    transform: rotate(180deg);
+  }
+}
+.products__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0%;
+  input {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+input[type="checkbox"] {
+  accent-color: var(--yellow);
+  background-color: white;
+}

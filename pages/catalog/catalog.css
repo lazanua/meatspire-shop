@@ -1,0 +1,123 @@
+.discount {
+  background-image: url("./../../img/catalog/bg.png");
+  height: 427px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--yellow);
+    margin-bottom: 32px;
+    font-family: var(--title);
+    font-variant: small-caps;
+  }
+  p {
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--light);
+    max-width: 1104px;
+  }
+}
+main .catalog {
+  background-color: #fff;
+  color: black;
+}
+.products__filter-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-top: 24px;
+  margin-bottom: 36px;
+  &:hover {
+    .products__filter-modal {
+      opacity: 1;
+    }
+  }
+}
+.products__filter-modal {
+  position: absolute;
+  top: 61px;
+  right: 0;
+  z-index: 5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  opacity: 0;
+  p {
+    width: 215px;
+    padding: 15px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+    &:hover {
+      background-color: #ebebeb;
+    }
+  }
+}
+.catalog {
+  margin-bottom: 104px;
+}
+.products__filter {
+  width: 215px;
+  padding: 15px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.products__categories-wrapper {
+  border: 1px solid #ddd;
+  padding: 16px 16px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: fit-content;
+  height: 906px;
+}
+.products__categories-title {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 147%;
+  font-variant: small-caps;
+  font-family: var(--title);
+  margin-bottom: 4px;
+}
+.products__categories-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 304px;
+  transition: all 0.1s ease-in;
+  &:hover {
+    color: var(--yellow);
+    cursor: pointer;
+    font-weight: 600;
+  }
+  & .bold {
+    font-weight: 600;
+    &:hover,
+    & p:hover {
+      color: #000;
+    }
+  }
+}
+.products__row {
+  display: flex;
+  justify-content: space-between;
+}
+.products__column {
+  border-right: 1px solid #ddd;
+}
+.products__products {
+  display: flex;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.products__row-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  flex-direction: column;
+}
